@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovaNetX</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo img {
+            width: 150px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .cta {
+            background-color: #ff5722;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg?auto=compress&cs=tinysrgb&w=600');
+            background-size: cover;
+            background-position: center;
+            color:  lime;
+            text-align: center;
+            padding: 150px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .hero .cta {
+            margin-top: 20px;
+        }
+
+        /* Sección de Servicios */
+        .services {
+            background-color: #0059b3;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .services .service-item {
+            margin-bottom: 30px;
+        }
+
+        .services .service-item img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+
+        .services .service-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .services .service-item p {
+            font-size: 18px;
+        }
+
+        /* Testimonios */
+        .testimonials {
+            background-color: #003366;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .testimonials .testimonial-item {
+            margin-bottom: 30px;
+        }
+
+        .testimonials .testimonial-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .testimonials .testimonial-item p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        /* Contacto */
+        .contact {
+            background-color: #007bff;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .contact img {
+            width: 100px;
+            height: 100px;
+            margin: 20px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #00264d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer img {
+            width: 100px;
+            height: 50px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="image.jpg" alt="InnovaNetX Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="#contacto" class="cta">Contáctanos</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <h1>Impulsamos tu negocio al siguiente nivel</h1>
+        <p>Tu éxito es nuestra misión</p>
+        <a href="#contacto" class="cta">Consulta Gratis</a>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section class="services" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-item">
+            <img src="https://images.unsplash.com/photo-1562577309-2592ab84b1bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="SEO">
+            <h3>SEO</h3>
+            <p>Optimización para motores de búsqueda para mejorar tu visibilidad en línea.</p>
+        </div>
+        <div class="service-item">
+            <img src="https://media.istockphoto.com/id/1413735503/es/foto/redes-sociales-social-medios-marketing-tailandia-redes-sociales-compromiso-post-estructura.jpg?s=1024x1024&w=is&k=20&c=KenA_63Odltn9Gs5vf1kI_FDiomv3VSUuZqcw6JL4yI=" alt="Gestión de Redes Sociales">
+            <h3>Gestión de Redes Sociales</h3>
+            <p>Manejamos tus perfiles sociales para atraer y fidelizar a tu audiencia.</p>
+        </div>
+        <div class="service-item">
+            <img src="https://images.unsplash.com/photo-1535303311164-664fc9ec6532?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hcmtldGluZyUyMGRlJTIwcHVibGljaWRhZHxlbnwwfHwwfHx8MA%3D%3D" alt="Publicidad en Línea">
+            <h3>Publicidad en Línea</h3>
+            <p>Campañas publicitarias efectivas para maximizar tu retorno de inversión.</p>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials" id="testimonios">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonial-item">
+            <img src="https://media.istockphoto.com/id/1181690920/es/foto/mujer-vendedor-alegre-mostrando-un-dise%C3%B1o-en-la-tableta-a-la-pareja-de-adultos-medios-en-busca.jpg?s=1024x1024&w=is&k=20&c=mUg6OYkWaPWxM7dNLJV3XSm6PJwO1khlXTj0QSh5HC0=" alt="Testimonio 1">
+            <p>"InnovaNetX transformó nuestra presencia digital. ¡Altamente recomendado!"</p>
+            <p>- Cliente Satisfecho</p>
+        </div>
+        <div class="testimonial-item">
+            <img src="https://media.istockphoto.com/id/2148916393/es/foto/un-apuesto-joven-sonr%C3%ADe-con-un-billete-en-la-mano.jpg?s=1024x1024&w=is&k=20&c=jpc06gIQ-HNCAGHo3a5qTPEFfskwis0NBLwTUGlREao=" alt="Testimonio 2">
+            <p>"Gracias a su estrategia de marketing, nuestras ventas han aumentado un 50%."</p>
+            <p>- Otro Cliente Feliz</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+        <h2>Contacto</h2>
+        <img src="https://media.istockphoto.com/id/1168945108/es/foto/imagen-de-primer-plano-de-las-manos-masculinas-utilizando-el-tel%C3%A9fono-inteligente-con-el.jpg?s=1024x1024&w=is&k=20&c=UoRWoE51i3nvpLbC2e34cjB3s3yXGew4AU9b6gkzr-I=" alt="Contacto">
+        <p>Teléfono: <a href="tel:+573113162252">3113162252</a></p>
+        <p>Email: <a href="mailto:gonzalezlechuga51@gmail.com">gonzalezlechuga51@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/573113162252">Haz clic aquí para chatear</a></p>
+        <p>Ubicación: Sabanalarga, Atlántico</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 InnovaNetX. Todos los derechos reservados.</p>
+        <img src="image.jpg" alt="InnovaNetX Logo">
+    </footer>
+
+</body>
+</html>
+
